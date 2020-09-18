@@ -1,0 +1,122 @@
+/* fonts are located at <link rel="stylesheet" href="assets/css/type">
+*/
+
+h1 {
+  font-size: 24pt;
+  font-family: 'futura-pt', sans-serif;
+  font-display: auto;
+  font-weight: 500;
+  color: rgb(68, 70, 91);
+}
+
+h2 {
+  font-size: 16pt;
+  font-family: 'futura-pt', sans-serif;
+  font-display: auto;
+  font-weight: 500;
+  color: rgb(68, 70, 91);
+}
+
+h3 {
+  font-size: 14pt;
+  font-family: 'futura-pt', sans-serif;
+  font-display: auto;
+  font-weight: 500;
+  color: rgb (200, 200, 200);
+}
+
+h4 {
+  font-size: 10pt;
+  font-family: 'futura-pt', sans-serif;
+  font-display: auto;
+  font-weight: 500;
+  text-align: 500;
+  text-transform: allcaps;
+  color: rgb (151, 151, 151);
+}
+
+p {
+  font-size: 12pt;
+  font-family: 'futura-pt', sans-serif;
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* common
+================================================== */
+
+
+
+body {
+  overflow-x: hidden;
+}
+
+
+.intro {
+  padding: 50px 50px 50px;
+}
+
+
+
+.header-intro {
+  margin: 0;
+  text-align: center;
+  padding: 50px 50px 50px;
+}
+
+
+.block-container {
+    display: grid;
+    justify-content: center;
+    vertical-align: inherit;
+}
+
+/* Grid
+================================================== */
+
+.grid-button {
+  display: grid;
+  text-align: center;
+	box-shadow: 1px 1px 2px rgb(68, 70, 91);
+	background:linear-gradient(to bottom, #f9f9f9 5%, #bebdbd 100%);
+	border-radius:10px;
+	cursor:pointer;
+  width: 10em;
+  height: 5em;
+
+}
+
+.grid-button:hover {
+	background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+.grid-button:active {
+	position:relative;
+  top:1px;
+}
+
+/* mobile
+================================================== */
+@media (min-width: 300px) {
+.grid-button {
+  transform: scale(1);
+  }
+}
+
+/* tablet or larger
+================================================== */
+@media (min-width: 426px) {
+.grid-button {
+  transform: scale(2);
+  }
+}
+
+/* Desktop or larger
+================================================== */
+@media (min-width: 769px) {
+.grid-button {
+  transform: scale(3);
+  }
+}
+
